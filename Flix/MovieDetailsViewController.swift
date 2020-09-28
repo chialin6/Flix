@@ -22,7 +22,7 @@ class MovieDetailsViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        print(movie["title"]!)
+//        print(movie["title"]!)
         titleLabel.text = movie["title"] as? String
 //        titleLabel.sizeToFit()
         synopsisLabel.text = movie["overview"] as? String
