@@ -17,6 +17,7 @@
 		DB0859722517107E0049505B /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0859712517107E0049505B /* FlixUITests.swift */; };
 		DB08598025171B140049505B /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB08597F25171B140049505B /* MoviesViewController.swift */; };
 		DB1E950B251872360070968C /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1E950A251872360070968C /* MovieCell.swift */; };
+		DBCA2D2C2521600000BE7B2C /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCA2D2B2521600000BE7B2C /* MovieDetailsViewController.swift */; };
 		E5E5ACEB9E986D13EB1A0EE0 /* Pods_Flix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0360008175AA6E1EBD6AB2 /* Pods_Flix.framework */; };
 		EFC768233E898BBD479477A1 /* Pods_FlixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028AA57B229D761FCE900C29 /* Pods_FlixTests.framework */; };
 /* End PBXBuildFile section */
@@ -63,6 +64,7 @@
 		DB0859732517107E0049505B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB08597F25171B140049505B /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		DB1E950A251872360070968C /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		DBCA2D2B2521600000BE7B2C /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				DB08595A2517107E0049505B /* LaunchScreen.storyboard */,
 				DB08595D2517107E0049505B /* Info.plist */,
 				DB08597F25171B140049505B /* MoviesViewController.swift */,
+				DBCA2D2B2521600000BE7B2C /* MovieDetailsViewController.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -410,6 +413,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBCA2D2C2521600000BE7B2C /* MovieDetailsViewController.swift in Sources */,
 				DB0859502517107C0049505B /* AppDelegate.swift in Sources */,
 				DB0859522517107C0049505B /* SceneDelegate.swift in Sources */,
 				DB1E950B251872360070968C /* MovieCell.swift in Sources */,
